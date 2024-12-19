@@ -13,12 +13,12 @@
 
 
 
-let parentElement = document.getElementById('parent');
-if (parentElement) {
+ let parentElement = document.getElementById('parent');
+ if (parentElement) {
     let descendants = parentElement.getElementsByTagName('*');
     console.log('Количество потомков:', descendants.length);
-} else {
+ } else {
     console.log('Элемент с идентификатором "parent" не найден.');
-}
+ }
 
 
